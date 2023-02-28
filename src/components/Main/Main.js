@@ -5,6 +5,7 @@ import bless from '../../images/bless.png'
 import MultipleItems from "./Carousel";
 import Order from "./Order";
 import Questions from "./Questions";
+import SocialMedia from "./SocialMedia";
 
 
 const Main = () => {
@@ -92,6 +93,8 @@ const Main = () => {
             </section>
 
             <Questions/>
+
+            <SocialMedia/>
         </>
     );
 };
