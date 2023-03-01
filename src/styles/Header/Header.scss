@@ -1,11 +1,12 @@
 #header{
-
   .header{
     width: 90%;
-    position: fixed;
-    z-index: 50;
     display: flex;
     align-items: center;
+    position: fixed;
+    z-index: 50;
+    backdrop-filter: blur(7px);
+
     &--nav{
       display: flex;
       align-items: center;
